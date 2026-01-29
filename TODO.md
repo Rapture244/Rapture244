@@ -18,3 +18,32 @@
 **Low Priority:**
 
 - [ ] Deploy my own instance of [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) on Vercel for private use
+
+## Self-Hosted GitHub Stats Setup (Vercel)
+
+1. **Fork the repo**: https://github.com/anuraghazra/github-readme-stats
+
+2. **Deploy to Vercel**:
+   - Sign in to [vercel.com](https://vercel.com) with GitHub
+   - New Project &xrarr; Import forked repo
+   - **Framework Preset**: Other
+   - **Build Command**: Leave blank
+   - Deploy
+
+3. **Create GitHub Token**:
+   - Go to: https://github.com/settings/tokens
+   - Generate new token (classic)
+   - Scopes: full `repo` + only `read:user`
+   - Expiration: 1 year or No expiration
+   - Copy token
+
+4. **Add Token to Vercel**:
+   - Project &xrarr; Settings &xrarr; Environment Variables
+   - Name: `PAT_1`
+   - Value: Paste GitHub token
+   - Check all environments (Production, Preview, Development)
+   - Save &xrarr; Redeploy
+
+5. **Use in README**:
+
+**Live instance**: https://github-readme-stats-rapture244.vercel.app
