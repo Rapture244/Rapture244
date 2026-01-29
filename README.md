@@ -13,7 +13,7 @@
 
 ## Current Projects 
 
-- [PyGraft-gen](https://github.com/Orange-OpenSource/pygraft-gen) &mdash; A library to generate synthetic RDFS/OWL ontologies and RDF Knowledge Graphs at scale
+- :globe_with_meridians: [PyGraft-gen](https://github.com/Orange-OpenSource/pygraft-gen) &mdash; A library to generate synthetic RDFS/OWL ontologies and RDF Knowledge Graphs at scale
 
 
 ---
