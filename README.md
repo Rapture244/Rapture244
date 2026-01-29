@@ -23,7 +23,7 @@
 </div>
 
 <p align="center">
-  <img height="200" src="https://github-readme-stats-rapture244.vercel.app/api?username=Rapture244&count_private=true&include_all_commits=true&show_icons=true&custom_title=Ovidiu%27s%20GitHub%20Stats&theme=default" />
+  <img height="200" src="https://github-readme-stats-rapture244.vercel.app/api?username=Rapture244&count_private=true&include_all_commits=true&show_icons=true&custom_title=GitHub%20Stats&theme=default" />
   <img height="200" src="https://github-readme-stats-rapture244.vercel.app/api/top-langs/?username=Rapture244&theme=default&show_icons=true" />
 </p>
 
